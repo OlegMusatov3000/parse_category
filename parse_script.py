@@ -10,53 +10,44 @@ from utils import (
 )
 
 
-def parse_metro_category(category_url):
-    start_url = f'{category_url}&page=1'
-    all_products = []
-    print(f'Начинаю парсить товары с ресурса:\n{start_url}')
-    for cookies_for_city in [COOKIES_FOR_MOSCOW, COOKIES_FOR_SAINT_PETERSBURG]:
-        if cookies_for_city == COOKIES_FOR_MOSCOW:
-            print('начинаю парсить товары из города Москва')
-        else:
-            print('начинаю парсить товары из города Санкт-Петербург')
-
-        start_response = requests.get(
-            start_url, headers=HEADERS,
-            cookies=cookies_for_city, params=PARAMS
+with requests.Session() as session:
+    def get_response(url, cookies):
+        return session.get(
+            url, headers=HEADERS, cookies=cookies, params=PARAMS
         )
 
-        last_page = get_last_page(start_response)
-        if last_page == WRONG_CATEGORY:
-            print(WRONG_CATEGORY)
-            return WRONG_CATEGORY
+    def parse_metro_category(category_url):
+        start_url = f'{category_url}&page=1'
+        all_products = []
+        print(f'Начинаю парсить товары с ресурса:\n{start_url}')
+        for cookies_for_city in [
+            COOKIES_FOR_MOSCOW, COOKIES_FOR_SAINT_PETERSBURG
+        ]:
+            city_name = 'Москва' if (
+                cookies_for_city
+            ) == COOKIES_FOR_MOSCOW else 'Санкт-Петербург'
+            print(f'Начинаю парсить товары из города {city_name}')
 
-        for page in range(1, int(last_page) + 1):
+            start_response = get_response(start_url, cookies_for_city)
 
-            url = f'{category_url}&page={page}'
-            if url != start_url:
-                response = requests.get(
-                    f'{category_url}&page={page}', headers=HEADERS,
-                    cookies=COOKIES_FOR_SAINT_PETERSBURG, params=PARAMS
-                )
-            else:
-                response = start_response
+            last_page = get_last_page(start_response)
+            if last_page == WRONG_CATEGORY:
+                return WRONG_CATEGORY
 
-            products = get_all_products_in_cur_page(response.text)
+            for page in range(1, int(last_page) + 1):
 
-            for item in products:
-                (
-                    id, product_name, product_link,
-                    product_price, discount_price, brand_name
-                ) = get_all_attribute_for_item(item)
-
-                all_products.append(
-                    [
-                        id, product_name, product_link,
-                        product_price, discount_price, brand_name
-                    ]
+                url = f'{category_url}&page={page}'
+                response = start_response if url == start_url else (
+                    get_response(url, cookies_for_city)
                 )
 
-    return all_products
+                products = get_all_products_in_cur_page(response.text)
+
+                for item in products:
+                    attributes = get_all_attribute_for_item(item)
+                    all_products.append(attributes)
+
+        return all_products
 
 
 def save_to_csv(data, filename):
