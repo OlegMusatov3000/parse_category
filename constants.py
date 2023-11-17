@@ -78,10 +78,15 @@ COOKIES_FOR_SAINT_PETERSBURG = {
 }
 
 
-
 PARAMS = {
     'from': 'under_search',
 }
+CLASSES_FOR_FIDE = (
+        'catalog-2-level-product-card product-card subcategory-or-type__products-item with-rating with-prices-drop has-online-range-prices',
+        'catalog-2-level-product-card product-card subcategory-or-type__products-item with-rating with-prices-drop',
+        'catalog-2-level-product-card product-card subcategory-or-type__products-item with-rating has-cashback with-prices-drop has-online-range-prices'
+    )
+CLASS_FOR_GET_PRICES = 'product-price nowrap product-unit-prices__actual style--catalog-2-level-product-card-major-actual color--red'
 
 WRONG_CATEGORY = (
     'Кажется, вы указали неправильную категорию. Пожалуйста,'
