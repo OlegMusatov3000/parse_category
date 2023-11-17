@@ -1,6 +1,7 @@
 id товара,наименование,ссылка на товар,регулярная цена,промо цена,бренд
 134954,"Сыр плавленый Hochland Чизбургер 45%, 150г",products/plavlenyj-hochland-chizburger-45-150g-bzmzh,131,,HOCHLAND
 134952,"Сыр плавленый Hochland сливочный 55%, 200г",products/plavlennyj-hochland-slivochnyj-55-200g-bzmzh,169,129,HOCHLAND
+134940,"Сыр плавленый Hochland сливочный 55%, 400г",products/plavlennyj-hochland-slivochnyj-55-400g-bzmzh,289,279,HOCHLAND
 132378,"Сыр Карат Дружба плавленый 55%, 90г",products/syr-plavlennyy-45-karat-druzhba-brusok-400g-bzmzh,,39.90,КАРАТ
 254050,"Сыр плавленый President сливочный, 400г",products/president-slivochnyj-400-g-bzmzh,296,,PRESIDENT
 134941,"Сыр плавленый Hochland с грибами 55%, 400г",products/plavlennyj-hochland-s-gribami-55-400g-bzmzh,289,279,HOCHLAND
@@ -11,6 +12,7 @@ id товара,наименование,ссылка на товар,регул
 522268,"Сыр плавленый Viola сливочный 50%, 400г",products/valio-viola-400-g-bzmzh,339,,VIOLA
 132380,"Сыр плавленый Карат для супа с луком 45%, 90г",products/syr-plavlennyy-45-dlya-supa-s-lukom-90g-bzmzh,45.99,41.90,КАРАТ
 458371,"Сыр Город сыра копченый колбасный 40%, 150г",products/kolbasnyj-kopchenyj-gorod-150g-bzmzh,130,,ГОРОД СЫРА
+576012,"Сыр плавленый Viola сливочный, 140г",products/viola-slivochnyj-140g-bzmzh,119,94.90,VIOLA
 531397,"Сыр плавленый Карат шоколадный 30%, 230г",products/karat-shokoladnyj-30-230-g-bzmzh,145,,КАРАТ
 134944,"Сыр плавленый Hochland с грибами 55%, 200г",products/plavlennyj-hochland-s-gribami-55-200g-bzmzh,169,129,HOCHLAND
 88248,"Сыр плавленый President Бри 45%, 200г",products/art_88248,165,139,PRESIDENT
@@ -27,8 +29,7 @@ id товара,наименование,ссылка на товар,регул
 134953,"Сыр плавленый Hochland Сэндвич 45%, 150г",products/plavlenyj-hochland-sendvich-45-150g-bzmzh,131,,HOCHLAND
 116686,"Сыр плавленый Карат с зеленью 45%, 90г",products/karat-s-zelenyu-45-90-g-bzmzh,45.99,42.99,КАРАТ
 663844,"Сыр плавленый President Creme De Camembert, 125г",products/president-creme-de-camembert-125g-bzmzh,207,139,PRESIDENT
-134935,"Сыр плавленый Hochland Ассорти зеленое 45-50%, 140г",products/plavlennyj-hochland-assorti-zelenoe-45-50-140g-bzmzh,134,,HOCHLAND
-663835,"Сыр President Creme De Chevre плавленый, 125г",products/president-creme-de-chevre-125g-bzmzh,207,139,PRESIDENT
+385716,"Сыр плавленый Viola Итальянское избранное, 130г",products/viola-slivochnyj-italyanskoe-izbrannoe-130g-bzmzh,99.90,94.90,VIOLA
 254051,"Сыр плавленый President с ветчиной, 400г",products/art_254051,296,,PRESIDENT
 132382,"Сыр Карат Янтарь плавленый 45%, 400г",products/syr-plavlennyy-45-karat-yantar-400g-bzmzh,219,,КАРАТ
 404767,"Сыр President сливочный, 300г",products/slivochnyj-president-master-buterbroda-300-g-bzmzh,249,,PRESIDENT
@@ -92,18 +93,15 @@ id товара,наименование,ссылка на товар,регул
 136302,"Сыр Аланталь плавленый копченый батончики 40%, 190г",products/syr-atlantal-plavlennyy-kopchenyy-batonchiki-40-190g,169.01,,АЛАНТАЛЬ
 236024,"Сыр плавленый President копченые колбаски 45%, 400г",products/syr-plavlenyy-president-kopchenye-kolbaski-45-400g,299,,PRESIDENT
 235833,"Сыр плавленый Ольхово копченый 40%, 190г",products/syr-plavlenyy-olhovo-kopchenyy-40-190g,175,149.01,ОЛЬХОВО
-553284,"Сыр плавленый Аланталь копченый 40%, ~500г",products/alantal-kopchenyj-40-500g,749.30,,АЛАНТАЛЬ
 134952,"Сыр плавленый Hochland сливочный 55%, 200г",products/plavlennyj-hochland-slivochnyj-55-200g-bzmzh,172,129,HOCHLAND
 213080,"Сыр Hochland плавленый Бистро чеддер 45%, 1.107кг",products/1107kg-syr-plavlennyy-45-hochland-prof-bistro-chedder-bzmzh,999,,HOCHLAND
 134941,"Сыр плавленый Hochland с грибами 55%, 400г",products/plavlennyj-hochland-s-gribami-55-400g-bzmzh,289,279,HOCHLAND
 134943,"Сыр плавленый Hochland с ветчиной 55%, 200г",products/plavlennyj-hochland-s-vetchinoj-55-200g-bzmzh,172,129,HOCHLAND
-534752,"Сыр плавленый Hochland со Швейцарским сыром, 200г",products/hochland-so-shvejcarskim-200g-bzmzh,172,129,HOCHLAND
 134944,"Сыр плавленый Hochland с грибами 55%, 200г",products/plavlennyj-hochland-s-gribami-55-200g-bzmzh,172,129,HOCHLAND
 666475,"Сыр плавленый Viola 4 сыра 45%, 180г",products/slivochnyj-viola-4-doj-pak-45-180g-mdzh,149,119,VIOLA
 134935,"Сыр плавленый Hochland Ассорти зеленое 45-50%, 140г",products/plavlennyj-hochland-assorti-zelenoe-45-50-140g-bzmzh,134,,HOCHLAND
 663835,"Сыр President Creme De Chevre плавленый, 125г",products/president-creme-de-chevre-125g-bzmzh,209,139,PRESIDENT
-561793,"Сыр плавленый Viola сливочный, 200г",products/viola-slivochnyj-200-g-bzmzh,186.99,,VIOLA
-98478,"METRO Chef Сыр Чеддер плавленый 45%, 738г",products/metro-chef-chedder-45-bzmzh-738-g,609.01,,METRO CHEF
+663842,"Сыр плавленый President Creme De Brie, 125г",products/president-creme-de-brie-125g-bzmzh,209,139,PRESIDENT
 214929,"Сыр плавленый Карат Дружба ломтиками 25%, 130г",products/130g-syr-plavlenyy-druzhba-25-karat-slaysy-bzmzh,74.90,64.90,КАРАТ
 134937,"Сыр плавленый Hochland сливочный 50%, 140г",products/plavlennyj-hochland-slivochnyj-50-140g-bzmzh,134,,HOCHLAND
 134960,"Сыр плавленый Hochland Ассорти желтое 50%, 140г",products/plavlennyj-hochland-assorti-zheltoe-50-140g-bzmzh,134,,HOCHLAND
@@ -112,13 +110,14 @@ id товара,наименование,ссылка на товар,регул
 553285,"Сыр плавленый Порховский МСЗ копченый 40%, ~400г",products/porhovskij-msz-kopchenyj-40-400-g,699.50,,ПОРХОВСКИЙ МСЗ
 218280,"Сыр Карат плавленный сливочный круг 25%, 130г",products/130g-syr-plavlenyy-25-karat-slivochnyy-krug-bzmzh,106,84.90,КАРАТ
 235843,"Сыр плавленый Ольхово копченый 40%, 200г",products/syr-plavlenyy-olhovo-kopchenyy-40-200g,186,,ОЛЬХОВО
+553284,"Сыр плавленый Аланталь копченый 40%, ~500г",products/alantal-kopchenyj-40-500g,749.30,,АЛАНТАЛЬ
 134958,"Сыр плавленый Hochland Сливочный 35%, 100г",products/plavlenyj-hochland-slivochnyj-35-100g-bzmzh,64.90,,HOCHLAND
 134954,"Сыр плавленый Hochland Чизбургер 45%, 150г",products/plavlenyj-hochland-chizburger-45-150g-bzmzh,128,,HOCHLAND
 134940,"Сыр плавленый Hochland сливочный 55%, 400г",products/plavlennyj-hochland-slivochnyj-55-400g-bzmzh,289,279,HOCHLAND
 132378,"Сыр Карат Дружба плавленый 55%, 90г",products/syr-plavlennyy-45-karat-druzhba-brusok-400g-bzmzh,,39.90,КАРАТ
 254050,"Сыр плавленый President сливочный, 400г",products/president-slivochnyj-400-g-bzmzh,296,,PRESIDENT
-134939,"Сыр плавленый Hochland с ветчиной 55%, 400г",products/plavlennyj-hochland-s-vetchinoj-55-400g-bzmzh,289,279,HOCHLAND
 90740,"Сыр плавленый Viola Чеддер 60%, 140г",products/slivochnyj-valio-viola-chetyre-60-140g-bzmzh,117,94.90,VIOLA
+534752,"Сыр плавленый Hochland со Швейцарским сыром, 200г",products/hochland-so-shvejcarskim-200g-bzmzh,172,129,HOCHLAND
 522268,"Сыр плавленый Viola сливочный 50%, 400г",products/valio-viola-400-g-bzmzh,329,,VIOLA
 132380,"Сыр плавленый Карат для супа с луком 45%, 90г",products/syr-plavlennyy-45-dlya-supa-s-lukom-90g-bzmzh,45.49,41.90,КАРАТ
 458371,"Сыр Город сыра копченый колбасный 40%, 150г",products/kolbasnyj-kopchenyj-gorod-150g-bzmzh,116,,ГОРОД СЫРА
@@ -139,7 +138,8 @@ id товара,наименование,ссылка на товар,регул
 116686,"Сыр плавленый Карат с зеленью 45%, 90г",products/karat-s-zelenyu-45-90-g-bzmzh,45.49,42.49,КАРАТ
 611256,Сыр плавленый Viola сливочный 130г,products/viola-slivochnyj-bez-dobavok-130g-bzmzh,99.90,94.90,VIOLA
 663844,"Сыр плавленый President Creme De Camembert, 125г",products/president-creme-de-camembert-125g-bzmzh,209,139,PRESIDENT
-663842,"Сыр плавленый President Creme De Brie, 125г",products/president-creme-de-brie-125g-bzmzh,209,139,PRESIDENT
+561793,"Сыр плавленый Viola сливочный, 200г",products/viola-slivochnyj-200-g-bzmzh,186.99,,VIOLA
+98478,"METRO Chef Сыр Чеддер плавленый 45%, 738г",products/metro-chef-chedder-45-bzmzh-738-g,609.01,,METRO CHEF
 88557,"Сыр плавленый President сливочный 45%, 200г",products/slivochnyj-president-45-200g-bzmzh,166,139,PRESIDENT
 218276,"Сыр Карат плавленный сливочный слайсы 25%, 130г",products/130g-syr-plavlenyy-25-karat-slivochnyy-slaysy-bzmzh,83.90,79.90,КАРАТ
 385716,"Сыр плавленый Viola Итальянское избранное, 130г",products/viola-slivochnyj-italyanskoe-izbrannoe-130g-bzmzh,99.90,94.90,VIOLA
@@ -206,18 +206,15 @@ id товара,наименование,ссылка на товар,регул
 136302,"Сыр Аланталь плавленый копченый батончики 40%, 190г",products/syr-atlantal-plavlennyy-kopchenyy-batonchiki-40-190g,169.01,,АЛАНТАЛЬ
 236024,"Сыр плавленый President копченые колбаски 45%, 400г",products/syr-plavlenyy-president-kopchenye-kolbaski-45-400g,299,,PRESIDENT
 235833,"Сыр плавленый Ольхово копченый 40%, 190г",products/syr-plavlenyy-olhovo-kopchenyy-40-190g,175,149.01,ОЛЬХОВО
-553284,"Сыр плавленый Аланталь копченый 40%, ~500г",products/alantal-kopchenyj-40-500g,749.30,,АЛАНТАЛЬ
 134952,"Сыр плавленый Hochland сливочный 55%, 200г",products/plavlennyj-hochland-slivochnyj-55-200g-bzmzh,172,129,HOCHLAND
 213080,"Сыр Hochland плавленый Бистро чеддер 45%, 1.107кг",products/1107kg-syr-plavlennyy-45-hochland-prof-bistro-chedder-bzmzh,999,,HOCHLAND
 134941,"Сыр плавленый Hochland с грибами 55%, 400г",products/plavlennyj-hochland-s-gribami-55-400g-bzmzh,289,279,HOCHLAND
 134943,"Сыр плавленый Hochland с ветчиной 55%, 200г",products/plavlennyj-hochland-s-vetchinoj-55-200g-bzmzh,172,129,HOCHLAND
-534752,"Сыр плавленый Hochland со Швейцарским сыром, 200г",products/hochland-so-shvejcarskim-200g-bzmzh,172,129,HOCHLAND
 134944,"Сыр плавленый Hochland с грибами 55%, 200г",products/plavlennyj-hochland-s-gribami-55-200g-bzmzh,172,129,HOCHLAND
 666475,"Сыр плавленый Viola 4 сыра 45%, 180г",products/slivochnyj-viola-4-doj-pak-45-180g-mdzh,149,119,VIOLA
 134935,"Сыр плавленый Hochland Ассорти зеленое 45-50%, 140г",products/plavlennyj-hochland-assorti-zelenoe-45-50-140g-bzmzh,134,,HOCHLAND
 663835,"Сыр President Creme De Chevre плавленый, 125г",products/president-creme-de-chevre-125g-bzmzh,209,139,PRESIDENT
-561793,"Сыр плавленый Viola сливочный, 200г",products/viola-slivochnyj-200-g-bzmzh,186.99,,VIOLA
-98478,"METRO Chef Сыр Чеддер плавленый 45%, 738г",products/metro-chef-chedder-45-bzmzh-738-g,609.01,,METRO CHEF
+663842,"Сыр плавленый President Creme De Brie, 125г",products/president-creme-de-brie-125g-bzmzh,209,139,PRESIDENT
 214929,"Сыр плавленый Карат Дружба ломтиками 25%, 130г",products/130g-syr-plavlenyy-druzhba-25-karat-slaysy-bzmzh,74.90,64.90,КАРАТ
 134937,"Сыр плавленый Hochland сливочный 50%, 140г",products/plavlennyj-hochland-slivochnyj-50-140g-bzmzh,134,,HOCHLAND
 134960,"Сыр плавленый Hochland Ассорти желтое 50%, 140г",products/plavlennyj-hochland-assorti-zheltoe-50-140g-bzmzh,134,,HOCHLAND
@@ -226,4 +223,5 @@ id товара,наименование,ссылка на товар,регул
 553285,"Сыр плавленый Порховский МСЗ копченый 40%, ~400г",products/porhovskij-msz-kopchenyj-40-400-g,699.50,,ПОРХОВСКИЙ МСЗ
 218280,"Сыр Карат плавленный сливочный круг 25%, 130г",products/130g-syr-plavlenyy-25-karat-slivochnyy-krug-bzmzh,106,84.90,КАРАТ
 235843,"Сыр плавленый Ольхово копченый 40%, 200г",products/syr-plavlenyy-olhovo-kopchenyy-40-200g,186,,ОЛЬХОВО
+553284,"Сыр плавленый Аланталь копченый 40%, ~500г",products/alantal-kopchenyj-40-500g,749.30,,АЛАНТАЛЬ
 134958,"Сыр плавленый Hochland Сливочный 35%, 100г",products/plavlenyj-hochland-slivochnyj-35-100g-bzmzh,64.90,,HOCHLAND

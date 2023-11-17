@@ -79,7 +79,7 @@ def save_to_csv(data, filename):
             })
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     category = input('''Введите правильное имя категории для парсера пример:\n
 category/molochnye-prodkuty-syry-i-yayca/syry/plavlenye \n
 Вы можете скопировать его из адресной строки на странице со списками
@@ -87,11 +87,11 @@ category/molochnye-prodkuty-syry-i-yayca/syry/plavlenye \n
 ''')
     if category == '1':
         category = CATEGORY_EXAMPLE
-    category_url = f"{MAIN_URL}{category}?from=under_search"
+    category_url = f'{MAIN_URL}{category}?from=under_search'
     products = parse_metro_category(category_url)
 
     if products is not WRONG_CATEGORY and len(products) > 100:
-        print("Более 100 товаров в категории. Сохранение данных.")
+        print('Более 100 товаров в категории. Сохранение данных.')
         save_to_csv(products, 'metro_products.csv')
     else:
-        print("Сохранение отменено.")
+        print('Сохранение отменено.')
